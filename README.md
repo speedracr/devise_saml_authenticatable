@@ -1,6 +1,11 @@
 [![Build Status](https://travis-ci.org/apokalipto/devise_saml_authenticatable.svg?branch=master)](https://travis-ci.org/apokalipto/devise_saml_authenticatable)
 # DeviseSamlAuthenticatable
 
+## NOTE FROM WW
+
+This gem has been forked because the maintainer has not kept up with the ruby_saml gem which this depends on causing this gem to be broken.
+We have implement the following solution from kevinmtrowbridge to fix the issue: https://github.com/apokalipto/devise_saml_authenticatable/issues/73
+
 Devise Saml Authenticatable is a Single-Sign-On authentication strategy for devise that relies on SAML.
 It uses [ruby-saml][] to handle all SAML related stuff.
 
